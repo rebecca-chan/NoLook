@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.nolook.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/marksman"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:src="@drawable/nolooksocks2" />
+
+        <TextView
+            android:id="@+id/fulfillyoursole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/marksman"
+            android:layout_alignTop="@+id/marksman"
+            android:layout_alignRight="@+id/marksman"
+            android:layout_alignBottom="@+id/marksman"
+            android:gravity="center"
+            android:text="Fulfill Your Sole"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif\"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:layout_gravity="center"
+        android:src="@drawable/nolooklogo" />
+
+    <TextView
+        android:id="@+id/contactline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="nolooksocks.com"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/contactline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="New York, NY"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+         />
+
+    <TextView
+        android:id="@+id/contactline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\@NoLookSocks"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:paddingRight="6dp"
+            android:src="@drawable/twitterblack"
+            android:tag="https://twitter.com/NoLookSocks"
+            android:onClick="openBrowser"/>
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:src="@drawable/facebookblack"
+            android:tag="https://www.facebook.com/nolookbasketball/"
+            android:onClick="openBrowser"
+            android:paddingRight="6dp"
+
+            />
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:src="@drawable/instagramblack"
+            android:tag="https://www.instagram.com/nolooksocks/"
+            android:onClick="openBrowser"
+            android:paddingRight="6dp"
+            />
+
+        <ImageView
+            android:id="@+id/email"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:src="@drawable/emailicon"
+            android:onClick="emailus"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
