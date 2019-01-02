@@ -1,7 +1,7 @@
 # NoLook
 Business Card App for a Sock Business
 
-I created this app for my friend's sock business, No Look. It only contains contact details and mirrors the webpage they created with SquareSoft.
+I created this app for my friend's sock business, No Look. It only contains contact details and mirrors the webpage they created with SquareSpace.
 
 You can find the video walkthrough here!
 
